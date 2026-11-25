@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certifications - Nikhil Kushwaha</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      padding: 30px;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 550px;
+      margin: 0 auto;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #007bff;
+      font-size: 22px;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 10px;
+      margin-top: 0;
+    }
+
+    /* Accordion Item Style */
+    details {
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      margin: 12px 0;
+      padding: 10px;
+      background-color: #fafafa;
+      transition: all 0.2s ease;
+    }
+
+    details[open] {
+      background-color: #ffffff;
+      border-color: #007bff;
+    }
+
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+    }
+
+    /* Right side indicator */
+    summary::after {
+      content: "➕";
+      font-size: 13px;
+    }
+
+    details[open] summary::after {
+      content: "➖";
+    }
+
+    /* Certificate Photo Layout */
+    .cert-image {
+      margin-top: 12px;
+      text-align: center;
+    }
+
+    .cert-image img {
+      width: 100%;
+      max-width: 480px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      display: block;
+      margin: 0 auto;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 20px;
+      color: #555;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .back-btn:hover {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>📜 Certifications & Projects</h1>
+
+    <!-- 1. Web Application Development -->
+    <details>
+      <summary>🌐 Web Application Development (L&T)</summary>
+      <div class="cert-image">
+        <img src="certifiates.jpg/wev app L&T.jpeg" alt="Web App Development Certificate">
+      </div>
+    </details>
+
+    <!-- 2. Java Certificate -->
+    <details>
+      <summary>☕ Java Certificate</summary>
+      <div class="cert-image">
+        <img src="certifiates.jpg/java certificate.jpeg" alt="Java Certificate">
+      </div>
+    </details>
+
+    <!-- 3. Deep Learning -->
+    <details>
+      <summary>🤖 Deep Learning</summary>
+      <div class="cert-image">
+        <img src="certifiates.jpg/deep learning.jpeg" alt="Deep Learning Certificate">
+      </div>
+    </details>
+
+    <!-- 4. Python (IBM) -->
+    <details>
+      <summary>🐍 Python (IBM)</summary>
+      <div class="cert-image">
+        <img src="certifiates.jpg/python IBM.jpeg" alt="Python IBM Certificate">
+      </div>
+    </details>
+
+    <!-- 5. CodeX Project -->
+    <details>
+      <summary>💻 CodeX Project/Certificate</summary>
+      <div class="cert-image">
+        <img src="certifiates.jpg/codeX.jpeg" alt="CodeX Certificate">
+      </div>
+    </details>
+
+    <a href="index.html" class="back-btn">⬅️ Back to Home</a>
+  </div>
+
+</body>
+</html>
